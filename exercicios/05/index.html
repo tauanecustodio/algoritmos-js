@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
+    <title>Exercício 05</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Média de notas</h1>
+            <form action="#" id="sumForm">
+                <label class="camp-inputs">
+                    Nota 1:
+                    <input type="number" id="value1" pattern="[0-9]+([,\.][0-9]+)?">
+                </label>
+                <label class="camp-inputs">
+                    Nota 2:
+                    <input type="number" id="value2" pattern="[0-9]+([,\.][0-9]+)?">
+                </label>
+            </form>
+            <div class="buttons-container">
+                <button class="button" form="sumForm" type="submit">Calcular</button>
+                <button class="button" form="sumForm" type="reset">Limpar</button>
+            </div>
+            <p class="text" id="text-area"></p>
+        </section>
+    </main>
+    <script src="script-05.js"></script>
+</body>
+</html>
