@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
+    <title>Exercício 08</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Conversor</h1>
+            <form action="#" id="form-metros">
+                <label class="camp-inputs">
+                    Digite uma distância em metros:
+                    <input id="metros" type="number" pattern="[0-9]+([,\.][0-9]+)?" min="1" max="1000000">
+                    <div id="alert-div"></div>
+                </label>
+                <button type="submit" form="form-metros" class="button">Calcular</button>
+            </form>
+
+            
+            <p class="text" id="text-area"></p>
+
+            <ul class="list-results">
+                <li><span id="result-km">0,0</span>Km</li>
+                <li><span id="result-hm">0,0</span>Hm</li>
+                <li><span id="result-dam">0,0</span>Dam</li>
+                <li><span id="result-dm">0,0</span>dm</li>
+                <li><span id="result-cm">0,0</span>cm</li>
+                <li><span id="result-mm">0,0</span>mm</li>
+            </ul>
+        </section>
+    </main>
+    <script src="script-08.js"></script>
+</body>
+</html>
