@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/general-components.css">
     <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
-    <title>Exercicio 02</title>
+    <title>Exercício 007</title>
 </head>
 <body>
     <main class="container">
         <section class="card">
-            <form action="" id="nameForm">
+            <h1 class="title">Dobro e terço</h1>
+            <form action="#" id="form-number">
                 <label class="camp-inputs">
-                    Qual o seu nome?
-                    <input required="required" type="text" id="name">
+                    Digite um número:
+                    <input id="number" type="number" pattern="[0-9]+([,\.][0-9]+)?">
                 </label>
+                <button class="button" type="submit" form="form-number">Calcular</button>
             </form>
-            <button class="button" type="submit" form="nameForm">Enviar</button>
             <p class="text" id="text-area"></p>
         </section>
     </main>
-    <script src="script-02.js"></script>
+    <script src="script-007.js"></script>
 </body>
 </html>
