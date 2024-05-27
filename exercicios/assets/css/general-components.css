@@ -12,7 +12,7 @@
     --secondary-color: #DBE0DA;
     --tertiary-color: #748D89;
     --quaternary-color: #F2F2F2;
-    --senary-color: #242C28;
+    --senary-color: #4a5751;
 }
 
 .container {
@@ -48,7 +48,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--tertiary-color);
+    color: var(--senary-color);
 }
 
 .camp-inputs, .card form {
@@ -56,7 +56,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5em;
+    gap: 1em;
 }
 
 .camp-inputs input {
@@ -73,6 +73,8 @@
 .button {
     padding: 0.5em 1.6em;
     border: 2px solid var(--tertiary-color);
+    color: var(--senary-color);
+    font-weight: 600;
     cursor: pointer;
     background: transparent;
     letter-spacing: 2px;
@@ -88,4 +90,13 @@
     padding: 0.5em;
     text-align: right;
     text-wrap: wrap;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr {
+    border: 1px solid var(--senary-color);
 }

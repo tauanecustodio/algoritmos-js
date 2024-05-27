@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
+    <title>Exercício 014</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Locadora de carros</h1>
+            <table class="table">
+                <tr>
+                    <td>Carro por dia</td>
+                    <td>R$90,00</td>
+                </tr>
+                <tr>
+                    <td>Km rodados</td>
+                    <td>R$0,20</td>
+                </tr>
+            </table>
+            <form action="" id="dates-form">
+                <label class="camp-inputs">
+                    Quantos km você percorreu?
+                    <input type="number" id="km-value">
+                </label>
+                <label class="camp-inputs">
+                    Quantos dias você alugou?
+                    <input type="number" id="days-value">
+                </label>
+                <button class="button" form="dates-form" type="submit">Calcular</button>
+            </form>
+            <p class="text" id="text-area"></p>
+        </section>
+    </main>
+    <script src="script-014.js"></script>
+</body>
+</html>
