@@ -100,3 +100,7 @@
 .table tr {
     border: 1px solid var(--senary-color);
 }
+
+.input-select {
+    background-color: transparent;
+}
