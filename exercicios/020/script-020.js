@@ -2,8 +2,10 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     e.preventDefault();
 
     const number = parseFloat(document.getElementById('number').value);
+
     if (isNaN(number)) {
-        document.getElementById('text-area').innerHTML = "Digite um n"
+        document.getElementById('text-area').innerHTML = "Digite um número válido"
+        return;
     }
 
     const modulus = number % 2;

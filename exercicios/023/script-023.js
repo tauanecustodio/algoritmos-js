@@ -29,7 +29,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     const discountValue = discount(price, gender);
     const totalPrice = price - discountValue;
 
-    textArea.innerHTML = `Olá, ${name}, obrigada por comprar conosco!<br>Seu desconto foi de R$${discountValue.toFixed(2).replace('.',',')} e o preço final do produto é R$ ${totalPrice.toFixed(2).replace('.',',')}`;
+    textArea.innerHTML = `Olá, ${name}, obrigada por comprar conosco!<br>Seu desconto foi de R$${discountValue.toFixed(2).replace('.',',')} <br>Total: R$${totalPrice.toFixed(2).replace('.',',')}`;
 });
 
 document.querySelector('button[type="reset"]').addEventListener('click', function(e) {

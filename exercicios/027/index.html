@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/general-components.css">
     <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
-    <title>Exercício 05</title>
+    <title>Exercício 027</title>
 </head>
 <body>
     <main class="container">
         <section class="card">
-            <h1 class="title">Média de notas</h1>
-            <form action="#" id="sumForm">
+            <h1 class="title">Aproveitamento escolar</h1>
+            <form action="form-values">
                 <label class="camp-inputs" for="value1">
-                    Nota 1:
-                    <input type="number" id="value1" pattern="[0-9]+([,\.][0-9]+)?">
+                    Informe sua primeira nota:
+                    <input type="number" id="value1" min="0" max="10">
                 </label>
                 <label class="camp-inputs" for="value2">
-                    Nota 2:
-                    <input type="number" id="value2" pattern="[0-9]+([,\.][0-9]+)?">
+                    Informe sua segunda nota:
+                    <input type="number" id="value2" min="0" max="10">
                 </label>
-                <div class="buttons-container">
-                    <button class="button" form="sumForm" type="submit">Calcular</button>
-                    <button class="button" form="sumForm" type="reset">Limpar</button>
+                <div>
+                    <button type="submit" class="button" form="form-values">Calcular</button>
+                    <button type="reset" class="button" form="form-values">Limpar</button>
                 </div>
             </form>
             <p class="text" id="text-area"></p>
         </section>
     </main>
-    <script src="script-005.js"></script>
+    <script src="script-027.js"></script>
 </body>
 </html>
