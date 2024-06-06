@@ -51,7 +51,8 @@
     color: var(--senary-color);
 }
 
-.camp-inputs, .card form {
+.camp-inputs, .camp-inputs2, .card form {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,10 +65,20 @@
     background: transparent;
     border-width: 0 0 2px 0;
     border-color: var(--senary-color);
+    outline: none;
 }
 
-.camp-inputs input:focus {
-    outline: none;
+input[type="radio"] {
+    appearance: none;
+    display: none;
+}
+
+input[type="radio"]:checked+label {
+    border-bottom: 2px solid var(--senary-color);
+}
+
+.camp-inputs2:hover {
+    scale: 1.1;
 }
 
 .button {
@@ -79,6 +90,14 @@
     background: transparent;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.button:hover {
+    scale: 1.05;
+}
+
+.button:active {
+    scale: 0.96
 }
 
 .list-results {

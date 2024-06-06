@@ -16,62 +16,72 @@ apostila pertence ao Prof. Gustavo Guanabara
 
 ## PASSO-01
 #### 001
-![alt text](screenshot/screenshot001.png)
+![screenshot](screenshot/screenshot001.png)
 #### 002
-![alt text](screenshot/screenshot002.png)
+![screenshot](screenshot/screenshot002.png)
 #### 003
-![alt text](screenshot/screenshot003.png)
+![screenshot](screenshot/screenshot003.png)
 #### 004
-![alt text](screenshot/screenshot004.png)
+![screenshot](screenshot/screenshot004.png)
 #### 005
-![alt text](screenshot/screenshot005.png)
+![screenshot](screenshot/screenshot005.png)
 #### 006
-![alt text](screenshot/screenshot006.png)
+![screenshot](screenshot/screenshot006.png)
 #### 007
-![alt text](screenshot/screenshot007.png)
+![screenshot](screenshot/screenshot007.png)
 #### 008
-![alt text](screenshot/screenshot008.png)
+![screenshot](screenshot/screenshot008.png)
 #### 009
-![alt text](screenshot/screenshot009.png)
+![screenshot](screenshot/screenshot009.png)
 #### 010
-![alt text](screenshot/screenshot010.png)
+![screenshot](screenshot/screenshot010.png)
 #### 011
-![alt text](screenshot/screenshot011.png)
+![screenshot](screenshot/screenshot011.png)
 #### 012
-![alt text](screenshot/screenshot012.png)
+![screenshot](screenshot/screenshot012.png)
 #### 013
-![alt text](screenshot/screenshot013.png)
+![screenshot](screenshot/screenshot013.png)
 #### 014
-![alt text](screenshot/screenshot014.png)
+![screenshot](screenshot/screenshot014.png)
 #### 015
-![alt text](screenshot/screenshot015.png)
+![screenshot](screenshot/screenshot015.png)
 #### 016
-![alt text](screenshot/screenshot016.png)
+![screenshot](screenshot/screenshot016.png)
 
 ### PASSO-02
 #### 017
-![alt text](screenshot/screenshot017.png)
+![screenshot](screenshot/screenshot017.png)
 #### 018
-![alt text](screenshot/screenshot018.png)
+![screenshot](screenshot/screenshot018.png)
 #### 019
-![alt text](screenshot/screenshot019.png)
+![screenshot](screenshot/screenshot019.png)
 #### 020
-![alt text](screenshot/screenshot020.png)
+![screenshot](screenshot/screenshot020.png)
 #### 021
-![alt text](screenshot/screenshot021.png)
+![screenshot](screenshot/screenshot021.png)
 #### 022
-![alt text](screenshot/screenshot022.png)
+![screenshot](screenshot/screenshot022.png)
 #### 023
-![alt text](screenshot/screenshot023.png)
+![screenshot](screenshot/screenshot023.png)
 #### 024
-![alt text](screenshot/screenshot024.png)
+![screenshot](screenshot/screenshot024.png)
 #### 025
-![alt text](screenshot/screenshot025.png)
+![screenshot](screenshot/screenshot025.png)
 
 ### PASSO-03
 #### 026
-![alt text](screenshot/screenshot026.png)
+![screenshot](screenshot/screenshot026.png)
 #### 027
-![alt text](screenshot/screenshot027.png)
+![screenshot](screenshot/screenshot027.png)
 #### 028
-![alt text](screenshot/screenshot028.png)
+![screenshot](screenshot/screenshot028.png)
+#### 029
+![screenshot](screenshot/screenshot029.png)
+#### 030
+![screenshot](screenshot/screenshot030.png)
+#### 031
+![screenshot](screenshot/screenshot031.png)
+#### 032
+![screenshot](screenshot/screenshot032.png)
+#### 033
+![screenshot](screenshot/screenshot033.png)

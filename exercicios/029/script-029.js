@@ -29,7 +29,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
         textArea.innerHTML = "Insira um tempo de trabalho válido";
         return;
     } else {
-        textArea.innerHTML = `Seu novo salário será ${newWageValue}`;
+        textArea.innerHTML = `Seu novo salário será R$${newWageValue.toFixed(2).replace('.',',')}`;
     };
 });
 
