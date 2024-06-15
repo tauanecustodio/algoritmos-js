@@ -123,3 +123,9 @@ input[type="radio"]:checked+label {
 .input-select {
     background-color: transparent;
 }
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
