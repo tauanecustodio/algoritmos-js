@@ -99,3 +99,25 @@ apostila pertence ao Prof. Gustavo Guanabara
 ![screenshot](screenshot/screenshot038.png)
 #### 039
 ![screenshot](screenshot/screenshot039.png)
+#### 040
+![screenshot](screenshot/screenshot040.png)
+#### 041
+![screenshot](screenshot/screenshot041.png)
+#### 042
+![screenshot](screenshot/screenshot042.png)
+#### 043
+![screenshot](screenshot/screenshot043.png)
+#### 044
+![screenshot](screenshot/screenshot044.png)
+#### 045
+![screenshot](screenshot/screenshot045.png)
+#### 046
+![screenshot](screenshot/screenshot046.png)
+#### 047
+![screenshot](screenshot/screenshot047.png)
+#### 048
+![screenshot](screenshot/screenshot048.png)
+#### 049
+![screenshot](screenshot/screenshot049.png)
+#### 050
+![screenshot](screenshot/screenshot050.png)
