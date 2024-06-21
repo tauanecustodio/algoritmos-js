@@ -28,7 +28,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
         return;
     }
 
-    textArea.innerText = `O valor a ser pago será: R$${calcAluguel(carType, carDays, carKm)}`;
+    textArea.innerText = `O valor a ser pago será: R$${calcAluguel(carType, carDays, carKm).toFixed(2).replace('.',',')}`;
 });
 
 document.querySelector('button[type="reset"]').addEventListener('click', function(e) {

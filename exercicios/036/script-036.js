@@ -29,7 +29,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
 
     const hoursActivity = parseInt(document.getElementById('activity-hours').value);
     
-    const validationMessage = hoursValidation(hours);
+    const validationMessage = hoursValidation(hoursActivity);
     if (validationMessage) {
         textArea.innerHTML = validationMessage;
         return;
