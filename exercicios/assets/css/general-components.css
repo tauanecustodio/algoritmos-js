@@ -18,7 +18,7 @@
 .container {
     background: var(--tertiary-color);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,7 @@
     background: var(--secondary-color);
     width: 350px;
     padding: 2em;
+    margin: 2em 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -122,6 +123,7 @@ input[type="radio"]:checked+label {
 
 .input-select {
     background-color: transparent;
+    outline: none;
 }
 
 fieldset {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
+    <title>Exercício 037</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Aumento de salário</h1>
+            <form action="">
+                <label for="name" class="camp-inputs">
+                    Informe seu nome:
+                    <input type="text" id="name">
+                </label>
+                <label for="gender" class="camp-inputs">
+                    Selecione o seu gênero:
+                    <select class="input-select" name="gender" id="gender">
+                        <option value="">Selecione</option>
+                        <option value="Male">Masculino</option>
+                        <option value="female">Feminino</option>
+                    </select>
+                </label>
+                <label for="wage" class="camp-inputs">
+                    Informe seu sálario:
+                    <input type="number" id="wage">
+                </label>
+                <label for="years" class="camp-inputs">
+                    Há quantos anos você está na empresa?
+                    <input type="number" id="years">
+                </label>
+                
+                <div>
+                    <button class="button" type="submit">Calcular</button>
+                    <button class="button" type="reset">Limpar</button>
+                </div>
+            </form>
+            <p class="text" id="text-area"></p>
+        </section>
+    </main>
+    <script src="script-037.js"></script>
+</body>
+</html>
