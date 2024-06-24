@@ -9,7 +9,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     e.preventDefault();
 
     number = parseInt(document.getElementById('number').value);
-    if (!number) {
+    if (isNaN(number)) {
         return;
     } else if (number % 2 == 0) {
         par++;
@@ -18,11 +18,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     }
 
     contador++;
-    if (contador < 6){
-        textContador.innerHTML = contador + 1;
-    } else {
-        textContador.innerHTML = 1;
-    }
+    textContador.textContent = contador < 6 ? (contador + 1) : 1;
     
     if (contador <= 6) {    
         textArea.innerHTML = `Pares: ${par} <br>Ímpar: ${impar}`;
