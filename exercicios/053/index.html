@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/Favicon.ico" type="image/x-icon">
+    <title>Exercício 053</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Comparando pessoas</h1>
+            <p class="text">Informe os dados de 5 pessoas (clique no botão adicionar para cadastrar cada uma delas)</p>
+            <p class="text"><span id="text-contador">1</span>° pessoa:</p>
+            <form action="#">
+                <label class="camp-inputs" for="gender">
+                    Sexo:
+                    <select class="input-select" name="gender" id="gender">
+                        <option value="">Selecione</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                    </select>
+                </label>
+                <label class="camp-inputs" for="age">
+                    Idade:
+                    <input type="number" id="age">
+                </label>
+                <div>
+                    <button type="submit" class="button">Adicionar</button>
+                    <button type="reset" class="button">Limpar</button>
+                </div>
+            </form>
+            <p class="text" id="text-area"></p>
+        </section>
+    </main>
+    <script src="script-053.js"></script>
+</body>
+</html>

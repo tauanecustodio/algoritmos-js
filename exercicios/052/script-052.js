@@ -25,7 +25,6 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     let mediaIdades = soma / contador;
 
     contador++;
-    console.log(contador);
     textContador.textContent = contador < 10 ? (contador + 1) : 1;
     
     document.getElementById('idade').value = "";
