@@ -1,3 +1,4 @@
+/* general style  */
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +45,9 @@
     }
 }
 
+/* components  */
+/* textos  */
+
 .title {
     font-size: 1.5em;
     font-weight: 700;
@@ -51,6 +55,8 @@
     letter-spacing: 1px;
     color: var(--senary-color);
 }
+
+/* form, input, label  */
 
 .camp-inputs, .camp-inputs2, .card form {
     position: relative;
@@ -82,6 +88,19 @@ input[type="radio"]:checked+label {
     scale: 1.1;
 }
 
+.input-select {
+    background-color: transparent;
+    outline: none;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* button  */
+
 .button {
     padding: 0.5em 1.6em;
     border: 2px solid var(--tertiary-color);
@@ -101,6 +120,8 @@ input[type="radio"]:checked+label {
     scale: 0.96
 }
 
+/* listas, tabelas */
+
 .list-results {
     columns: 2;
 }
@@ -119,15 +140,4 @@ input[type="radio"]:checked+label {
 
 .table tr {
     border: 1px solid var(--senary-color);
-}
-
-.input-select {
-    background-color: transparent;
-    outline: none;
-}
-
-fieldset {
-    border: none;
-    padding: 0;
-    margin: 0;
 }
