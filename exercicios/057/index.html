@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <title>Exercício 057</title>
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1 class="title">Total investido em salários</h1>
+            <p class="text">Informe os dados das pessoas que você quer comparar (clique no botão adicionar para cadastrar cada uma delas e em comparar para ver o resultado)</p>
+            <form action="#">
+                <label class="camp-inputs" for="gender">
+                    Sexo:
+                    <select class="input-select" name="gender" id="gender">
+                        <option value="">Selecione</option>
+                        <option value="feminine">Feminino</option>
+                        <option value="masculine">Masculino</option>
+                    </select>
+                </label>
+                <label class="camp-inputs" for="wage">
+                    Salário:
+                    <input type="number" id="wage">
+                </label>
+                <div>
+                    <button class="button" id="adicionar">Adicionar</button>
+                    <button type="submit" class="button">Comparar</button>
+                    <button type="reset" class="button">Resetar</button>
+                </div>
+            </form>
+            <p class="text" id="text-area"></p>
+        </section>
+    </main>
+    <script src="script-057.js"></script>
+</body>
+</html>

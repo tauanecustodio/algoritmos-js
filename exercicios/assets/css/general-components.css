@@ -103,6 +103,7 @@ fieldset {
 
 .button {
     padding: 0.5em 1.6em;
+    margin-top: 0.5em;
     border: 2px solid var(--tertiary-color);
     color: var(--senary-color);
     font-weight: 600;
