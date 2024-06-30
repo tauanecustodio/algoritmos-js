@@ -127,3 +127,17 @@ apostila pertence ao Prof. Gustavo Guanabara
 ![screenshot](screenshot/screenshot052.png)
 #### 053
 ![screenshot](screenshot/screenshot053.png)
+#### 054
+![screenshot](screenshot/screenshot054.png)
+#### 055
+![screenshot](screenshot/screenshot055.png)
+
+### PASSO-04
+#### 056
+![screenshot](screenshot/screenshot056.png)
+#### 057
+![screenshot](screenshot/screenshot057.png)
+#### 058
+![screenshot](screenshot/screenshot058.png)
+#### 059
+![screenshot](screenshot/screenshot059.png)
