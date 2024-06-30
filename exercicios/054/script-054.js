@@ -36,9 +36,9 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     document.getElementById('weight').value = '';
 
     contador++
-    textContador.textContent = contador < 3 ? (contador + 1) : 1;
+    textContador.textContent = contador < 7 ? (contador + 1) : 1;
 
-    if (contador > 2) {
+    if (contador > 6) {
         textArea.innerHTML = `Média das alturas: ${mediaAltura.toFixed(2)}<br>Pessoas com mais de 90kg: ${mais90Kg}<br>Pessoas com menos de 50kg e menos de 160cm: ${menos50KgMenos160Cm}<br>Pessoas com mais de 100kg e mais de 190cm: ${mais190CmMais100Kg}`;
     } else {
         return;
