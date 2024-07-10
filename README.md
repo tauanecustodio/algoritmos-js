@@ -1,143 +1,60 @@
 # 100 exercícios de lógica de programação com JavaScript
 
-apostila pertence ao Prof. Gustavo Guanabara
+- [Overview](#overview)
+  - [Sobre](#sobre)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Processo](#processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+- [Como visualizar](#como-visualizar)
+- [Contato](#contato)
 
-- [PASSO 01 - SEQUÊNCIAS BÁSICAS (1 - 16)](#passo-01)
-- [PASSO 02 - CONDIÇÕES BÁSICAS (17 - 25)](#passo-02)
-- [PASSO 03 - CONDIÇÕES COMPOSTAS (26 - 37)](#passo-03)
-- [PASSO 04 – REPETIÇÕES ENQUANTO (38 - 55)](#passo-04)
-- [PASSO 05 – ENQUANTO COM FLAG (56 - 60)](#passo-05)
-- [PASSO 06 – REPETIÇÃO COM FAÇA ENQUANTO (61 - 63)](#passo-06)
-- [PASSO 07 – REPETIÇÃO COM PARA ( 64 - 70)](#passo-07)
-- [PASSO 08 – VETORES (71 - 85)](#passo-08)
-- [PASSO 09 – PROCEDIMENTOS (86 - 94)](#passo-09)
-- [PASSO 10 – FUNÇÕES (95 - 100)](#passo-10)
+## Overview
+### Sobre
+Este projeto contém 100 exercícios de lógica de programação desenvolvidos em JavaScript. Os exercícios foram baseados na apostila disponibilizada no curso de "Lógica de programação" do Professor Gustavo Guanabara
 
+<img src="imagens/logo-curso-em-video.png" alt="logo curso em video" width="100px">  
 
-## PASSO-01
-#### 001
-![screenshot](screenshot/screenshot001.png)
-#### 002
-![screenshot](screenshot/screenshot002.png)
-#### 003
-![screenshot](screenshot/screenshot003.png)
-#### 004
-![screenshot](screenshot/screenshot004.png)
-#### 005
-![screenshot](screenshot/screenshot005.png)
-#### 006
-![screenshot](screenshot/screenshot006.png)
-#### 007
-![screenshot](screenshot/screenshot007.png)
-#### 008
-![screenshot](screenshot/screenshot008.png)
-#### 009
-![screenshot](screenshot/screenshot009.png)
-#### 010
-![screenshot](screenshot/screenshot010.png)
-#### 011
-![screenshot](screenshot/screenshot011.png)
-#### 012
-![screenshot](screenshot/screenshot012.png)
-#### 013
-![screenshot](screenshot/screenshot013.png)
-#### 014
-![screenshot](screenshot/screenshot014.png)
-#### 015
-![screenshot](screenshot/screenshot015.png)
-#### 016
-![screenshot](screenshot/screenshot016.png)
+### Screenshot
+Para um preview dos exercícios, acesse o [readme com as screenshots de todos exercícios](readme-screenshots.md).
 
-### PASSO-02
-#### 017
-![screenshot](screenshot/screenshot017.png)
-#### 018
-![screenshot](screenshot/screenshot018.png)
-#### 019
-![screenshot](screenshot/screenshot019.png)
-#### 020
-![screenshot](screenshot/screenshot020.png)
-#### 021
-![screenshot](screenshot/screenshot021.png)
-#### 022
-![screenshot](screenshot/screenshot022.png)
-#### 023
-![screenshot](screenshot/screenshot023.png)
-#### 024
-![screenshot](screenshot/screenshot024.png)
-#### 025
-![screenshot](screenshot/screenshot025.png)
+### Links
 
-### PASSO-03
-#### 026
-![screenshot](screenshot/screenshot026.png)
-#### 027
-![screenshot](screenshot/screenshot027.png)
-#### 028
-![screenshot](screenshot/screenshot028.png)
-#### 029
-![screenshot](screenshot/screenshot029.png)
-#### 030
-![screenshot](screenshot/screenshot030.png)
-#### 031
-![screenshot](screenshot/screenshot031.png)
-#### 032
-![screenshot](screenshot/screenshot032.png)
-#### 033
-![screenshot](screenshot/screenshot033.png)
-#### 034
-![screenshot](screenshot/screenshot034.png)
-#### 035
-![screenshot](screenshot/screenshot035.png)
-#### 036
-![screenshot](screenshot/screenshot036.png)
-#### 037
-![screenshot](screenshot/screenshot037.png)
+- [Playlist no youtube do curso de lógica de programação do Gustavo Guanabara](https://youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&si=sqCkO2Y9V6d9RlA0)
 
-### PASSO-04
-#### 038
-![screenshot](screenshot/screenshot038.png)
-#### 039
-![screenshot](screenshot/screenshot039.png)
-#### 040
-![screenshot](screenshot/screenshot040.png)
-#### 041
-![screenshot](screenshot/screenshot041.png)
-#### 042
-![screenshot](screenshot/screenshot042.png)
-#### 043
-![screenshot](screenshot/screenshot043.png)
-#### 044
-![screenshot](screenshot/screenshot044.png)
-#### 045
-![screenshot](screenshot/screenshot045.png)
-#### 046
-![screenshot](screenshot/screenshot046.png)
-#### 047
-![screenshot](screenshot/screenshot047.png)
-#### 048
-![screenshot](screenshot/screenshot048.png)
-#### 049
-![screenshot](screenshot/screenshot049.png)
-#### 050
-![screenshot](screenshot/screenshot050.png)
-#### 051
-![screenshot](screenshot/screenshot051.png)
-#### 052
-![screenshot](screenshot/screenshot052.png)
-#### 053
-![screenshot](screenshot/screenshot053.png)
-#### 054
-![screenshot](screenshot/screenshot054.png)
-#### 055
-![screenshot](screenshot/screenshot055.png)
+## Processo
+### Construído com
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-e9e900?style=for-the-badge&logo=javascript&logoColor=000000)  
 
-### PASSO-04
-#### 056
-![screenshot](screenshot/screenshot056.png)
-#### 057
-![screenshot](screenshot/screenshot057.png)
-#### 058
-![screenshot](screenshot/screenshot058.png)
-#### 059
-![screenshot](screenshot/screenshot059.png)
+### O que aprendi
+Durante o desenvolvimento destes exercícios, aprendi a:
+- Manipular estruturas de controle como loops e condicionais em JavaScript.
+- Trabalhar com arrays e objetos.
+- Implementar funções para resolver problemas de lógica.
+- Melhorar minha capacidade de debug e resolução de problemas.
+- Compreender a importância da lógica de programação para o desenvolvimento de software.
+
+## Como visualizar
+1. Clone o repositório
+```
+git clone https://github.com/tauanecustodio/algoritmos-js.git
+```
+2. Navegue até o diretório do projeto
+```
+cd algoritmos-js
+```
+3. Em seguida, navegue até a pasta com os exercícios:
+```
+cd exercicios
+```
+4. Dentro da pasta exercícios há subpastas numeradas de 001 a 100 e cada subpasta contém um aquivo `index.html` que pode ser aberto diretamente no seu navegador para visualização
+```
+cd 001
+start index.html <!-- ou o seu comando para abrir no navegador -->
+```
+
+## Contato
+[![Linkedin](https://img.shields.io/badge/linkedin-1572B6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tauanecustodio)
