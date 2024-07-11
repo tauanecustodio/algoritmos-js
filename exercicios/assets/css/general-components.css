@@ -16,7 +16,7 @@
     --senary-color: #4a5751;
 }
 
-.container {
+body {
     min-width: 100vw;
     min-height: 100vh;
     background: var(--tertiary-color);
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.card {
+#card {
     background: var(--secondary-color);
     width: 350px;
     padding: 2em;
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 380px) {
-    .card {
+    #card {
         width: min-content;
     }
 }
@@ -58,7 +58,7 @@
 
 /* form, input, label  */
 
-.camp-inputs, .camp-inputs2, .card form {
+.camp-inputs, .camp-inputs2, #card form {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -101,7 +101,7 @@ fieldset {
 
 /* button  */
 
-.button {
+.btn {
     padding: 0.5em 1.6em;
     margin-top: 0.5em;
     border: 2px solid var(--tertiary-color);
@@ -113,11 +113,11 @@ fieldset {
     text-transform: uppercase;
 }
 
-.button:hover {
+.btn:hover {
     scale: 1.05;
 }
 
-.button:active {
+.btn:active {
     scale: 0.96
 }
 
