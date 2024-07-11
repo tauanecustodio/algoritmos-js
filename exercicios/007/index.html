@@ -8,18 +8,16 @@
     <title>Exercício 007</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Dobro e terço</h1>
-            <form action="#" id="form-number">
-                <label class="camp-inputs" for="number">
-                    Digite um número:
-                    <input id="number" type="number" pattern="[0-9]+([,\.][0-9]+)?">
-                </label>
-                <button class="button" type="submit" form="form-number">Calcular</button>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Dobro e terço</h1>
+        <form action="#" id="form-number">
+            <label class="camp-inputs" for="number">
+                Digite um número:
+                <input id="number" type="number">
+            </label>
+            <button class="btn" type="submit" form="form-number">Calcular</button>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-007.js"></script>
 </body>

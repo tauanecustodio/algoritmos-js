@@ -7,31 +7,29 @@
     <title>Exercício 057</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Total investido em salários</h1>
-            <p class="text">Informe os dados das pessoas que você quer comparar (clique no botão adicionar para cadastrar cada uma delas e em comparar para ver o resultado)</p>
-            <form action="#">
-                <label class="camp-inputs" for="gender">
-                    Sexo:
-                    <select class="input-select" name="gender" id="gender">
-                        <option value="">Selecione</option>
-                        <option value="feminine">Feminino</option>
-                        <option value="masculine">Masculino</option>
-                    </select>
-                </label>
-                <label class="camp-inputs" for="wage">
-                    Salário:
-                    <input type="number" id="wage">
-                </label>
-                <div>
-                    <button class="button" id="adicionar">Adicionar</button>
-                    <button type="submit" class="button" id="comparar">Comparar (0)</button>
-                    <button type="reset" class="button">Resetar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Total investido em salários</h1>
+        <p>Informe os dados das pessoas que você quer comparar (clique no botão adicionar para cadastrar cada uma delas e em comparar para ver o resultado)</p>
+        <form action="#">
+            <label class="camp-inputs" for="gender">
+                Sexo:
+                <select class="input-select" name="gender" id="gender">
+                    <option value="">Selecione</option>
+                    <option value="feminine">Feminino</option>
+                    <option value="masculine">Masculino</option>
+                </select>
+            </label>
+            <label class="camp-inputs" for="wage">
+                Salário:
+                <input type="number" id="wage">
+            </label>
+            <div>
+                <button class="btn" id="adicionar">Adicionar</button>
+                <button type="submit" class="btn" id="comparar">Comparar (0)</button>
+                <button type="reset" class="btn">Resetar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-057.js"></script>
 </body>

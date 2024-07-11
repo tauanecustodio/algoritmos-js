@@ -8,25 +8,23 @@
     <title>Exercício 004</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Soma de dois números</h1>
-            <form action="#" id="sumForm">
-                <label class="camp-inputs" for="value1">
-                    Digite um valor:
-                    <input type="number" id="value1" pattern="[0-9]+([,\.][0-9]+)?">
-                </label>
-                <label class="camp-inputs" for="value2">
-                    Digite outro valor:
-                    <input type="number" id="value2" pattern="[0-9]+([,\.][0-9]+)?">
-                </label>
-                <div>
-                    <button class="button" form="sumForm" type="submit">Somar</button>
-                    <button class="button" form="sumForm" type="reset">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Soma de dois números</h1>
+        <form action="#" id="sumForm">
+            <label class="camp-inputs" for="value1">
+                Digite um valor:
+                <input type="number" id="value1">
+            </label>
+            <label class="camp-inputs" for="value2">
+                Digite outro valor:
+                <input type="number" id="value2">
+            </label>
+            <div>
+                <button class="btn" form="sumForm" type="submit">Somar</button>
+                <button class="btn" form="sumForm" type="reset">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-004.js"></script>
 </body>

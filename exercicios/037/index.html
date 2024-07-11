@@ -8,38 +8,35 @@
     <title>Exercício 037</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Reajuste salarial</h1>
-            <form action="">
-                <label for="name" class="camp-inputs">
-                    Informe seu nome:
-                    <input type="text" id="name">
-                </label>
-                <label for="gender" class="camp-inputs">
-                    Selecione o seu gênero:
-                    <select class="input-select" name="gender" id="gender">
-                        <option value="">Selecione</option>
-                        <option value="Male">Masculino</option>
-                        <option value="female">Feminino</option>
-                    </select>
-                </label>
-                <label for="wage" class="camp-inputs">
-                    Informe seu sálario:
-                    <input type="number" id="wage">
-                </label>
-                <label for="years" class="camp-inputs">
-                    Há quantos anos você está na empresa?
-                    <input type="number" id="years">
-                </label>
-                
-                <div>
-                    <button class="button" type="submit">Calcular</button>
-                    <button class="button" type="reset">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Reajuste salarial</h1>
+        <form action="">
+            <label for="name" class="camp-inputs">
+                Informe seu nome:
+                <input type="text" id="name">
+            </label>
+            <label for="gender" class="camp-inputs">
+                Selecione o seu gênero:
+                <select class="input-select" name="gender" id="gender">
+                    <option value="">Selecione</option>
+                    <option value="Male">Masculino</option>
+                    <option value="female">Feminino</option>
+                </select>
+            </label>
+            <label for="wage" class="camp-inputs">
+                Informe seu sálario:
+                <input type="number" id="wage">
+            </label>
+            <label for="years" class="camp-inputs">
+                Há quantos anos você está na empresa?
+                <input type="number" id="years">
+            </label>
+            <div>
+                <button class="btn" type="submit">Calcular</button>
+                <button class="btn" type="reset">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-037.js"></script>
 </body>

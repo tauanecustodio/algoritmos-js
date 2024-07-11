@@ -10,26 +10,24 @@
     <title>Exercício 034</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Calculadora de IMC</h1>
-            <form action="#" id="imc-form">
-                <label class="camp-inputs" for="weight">
-                    Informe seu peso:
-                    <input type="number" id="weight" placeholder="kg">
-                </label>
-                <label class="camp-inputs" for="height">
-                    e a sua altura:
-                    <input type="number" id="height" placeholder="cm">
-                </label>
-                <div>
-                    <button type="submit" form="imc-form" class="button">Calcular</button>
-                    <button type="reset" form="imc-form" class="button">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Calculadora de IMC</h1>
+        <form action="#" id="imc-form">
+            <label class="camp-inputs" for="weight">
+                Informe seu peso:
+                <input type="number" id="weight" placeholder="kg">
+            </label>
+            <label class="camp-inputs" for="height">
+                e a sua altura:
+                <input type="number" id="height" placeholder="cm">
+            </label>
+            <div>
+                <button type="submit" form="imc-form" class="btn">Calcular</button>
+                <button type="reset" form="imc-form" class="btn">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
-    <script src="script-034.js" defer></script>
+    <script src="script-034.js"></script>
 </body>
 </html>

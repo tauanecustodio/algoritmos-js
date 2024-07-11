@@ -8,27 +8,25 @@
     <title>Exercício 054</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Comparando pessoas</h1>
-            <p class="text">Informe os dados de 7 pessoas (clique no botão adicionar para cadastrar cada uma delas)</p>
-            <p class="text"><span id="text-contador">1</span>° pessoa:</p>
-            <form action="#">
-                <label class="camp-inputs" for="height">
-                    Altura(cm):
-                    <input type="number" id="height">
-                </label>    
-                <label class="camp-inputs" for="weight">
-                    Peso(kg):
-                    <input type="number" id="weight">
-                </label>
-                <div>
-                    <button type="submit" class="button">Adicionar</button>
-                    <button type="reset" class="button">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Comparando pessoas</h1>
+        <p>Informe os dados de 7 pessoas (clique no botão adicionar para cadastrar cada uma delas)</p>
+        <p><span id="text-contador">1</span>° pessoa:</p>
+        <form action="#">
+            <label class="camp-inputs" for="height">
+                Altura(cm):
+                <input type="number" id="height">
+            </label>    
+            <label class="camp-inputs" for="weight">
+                Peso(kg):
+                <input type="number" id="weight">
+            </label>
+            <div>
+                <button type="submit" class="btn">Adicionar</button>
+                <button type="reset" class="btn">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-054.js"></script>
 </body>

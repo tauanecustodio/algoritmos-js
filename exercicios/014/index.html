@@ -8,32 +8,30 @@
     <title>Exercício 014</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Locadora de carros</h1>
-            <table class="table">
-                <tr>
-                    <td>Carro por dia</td>
-                    <td>R$90,00</td>
-                </tr>
-                <tr>
-                    <td>Km rodados</td>
-                    <td>R$0,20</td>
-                </tr>
-            </table>
-            <form action="" id="dates-form">
-                <label class="camp-inputs" for="km-value">
-                    Quantos km você percorreu?
-                    <input type="number" id="km-value">
-                </label>
-                <label class="camp-inputs" for="days-value">
-                    Quantos dias você alugou?
-                    <input type="number" id="days-value">
-                </label>
-                <button class="button" form="dates-form" type="submit">Calcular</button>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Locadora de carros</h1>
+        <table class="table">
+            <tr>
+                <td>Carro por dia</td>
+                <td>R$90,00</td>
+            </tr>
+            <tr>
+                <td>Km rodados</td>
+                <td>R$0,20</td>
+            </tr>
+        </table>
+        <form action="" id="dates-form">
+            <label class="camp-inputs" for="km-value">
+                Quantos km você percorreu?
+                <input type="number" id="km-value">
+            </label>
+            <label class="camp-inputs" for="days-value">
+                Quantos dias você alugou?
+                <input type="number" id="days-value">
+            </label>
+            <button class="btn" form="dates-form" type="submit">Calcular</button>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-014.js"></script>
 </body>

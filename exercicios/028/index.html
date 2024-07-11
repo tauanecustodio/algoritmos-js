@@ -8,25 +8,23 @@
     <title>Exercício 028</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Terreno</h1>
-            <form action="#" id="form">
-                <label class="camp-inputs" for="width">
-                    Informe a largura do terreno:
-                    <input type="number" id="width" placeholder="m">
-                </label>
-                <label class="camp-inputs" for="length">
-                    E o cumprimento:
-                    <input type="number" id="length" placeholder="m">
-                </label>
-                <div>
-                    <button type="submit" form="form" class="button">Calcular</button>
-                    <button type="reset" form="form" class="button">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Terreno</h1>
+        <form action="#" id="form">
+            <label class="camp-inputs" for="width">
+                Informe a largura do terreno:
+                <input type="number" id="width" placeholder="m">
+            </label>
+            <label class="camp-inputs" for="length">
+                E o cumprimento:
+                <input type="number" id="length" placeholder="m">
+            </label>
+            <div>
+                <button type="submit" form="form" class="btn">Calcular</button>
+                <button type="reset" form="form" class="btn">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-028.js"></script>
 </body>

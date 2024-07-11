@@ -8,23 +8,21 @@
     <title>Exercício 058</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Média da turma</h1>
-            <p class="text">Informe as notas de todos alunos da turma (clique no botão adicionar para cadastrar cada nota e em pronto para ver o resultado)</p>
-            <form action="#">
-                <label class="camp-inputs" for="nota">
-                    Nota:
-                    <input type="number" id="nota">
-                </label>
-                <div>
-                    <button class="button" id="adicionar">Adicionar</button>
-                    <button type="submit" class="button">Pronto <span id="total-alunos">(0)</span></button>
-                    <button type="reset" class="button">Resetar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Média da turma</h1>
+        <p>Informe as notas de todos alunos da turma (clique no botão adicionar para cadastrar cada nota e em pronto para ver o resultado)</p>
+        <form action="#">
+            <label class="camp-inputs" for="nota">
+                Nota:
+                <input type="number" id="nota">
+            </label>
+            <div>
+                <button class="btn" id="adicionar">Adicionar</button>
+                <button type="submit" class="btn">Pronto <span id="total-alunos">(0)</span></button>
+                <button type="reset" class="btn">Resetar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-058.js"></script>
 </body>

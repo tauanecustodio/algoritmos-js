@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +8,27 @@
     <title>Exercício 029</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Aumento de salário</h1>
-            <form action="#" id="wage-form">
-                <label class="camp-inputs" for="name">
-                    Informe seu nome:
-                    <input type="text" id="name">
-                </label>
-                <label class="camp-inputs" for="wage">
-                    Informe seu salário atual:
-                    <input type="number" id="wage">
-                </label>
-                <label class="camp-inputs" for="work-years">
-                    Há quantos anos você está na empresa?
-                    <input type="number" id="work-years">
-                </label>
-                <div>
-                    <button form="wage-form" class="button" type="submit">Calcular</button>
-                    <button form="wage-form" class="button" type="reset">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Aumento de salário</h1>
+        <form action="#" id="wage-form">
+            <label class="camp-inputs" for="name">
+                Informe seu nome:
+                <input type="text" id="name">
+            </label>
+            <label class="camp-inputs" for="wage">
+                Informe seu salário atual:
+                <input type="number" id="wage">
+            </label>
+            <label class="camp-inputs" for="work-years">
+                Há quantos anos você está na empresa?
+                <input type="number" id="work-years">
+            </label>
+            <div>
+                <button form="wage-form" class="btn" type="submit">Calcular</button>
+                <button form="wage-form" class="btn" type="reset">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-029.js"></script>
 </body>

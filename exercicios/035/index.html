@@ -10,33 +10,31 @@
 </head>
 <body>
     <main class="container">
-        <section class="card">
-            <h1 class="title">Aluguel de carros</h1>
-            <p class="text">Simule o valor a ser pago</p>
-            <form action="#" id="aluguel-form">
-                <label class="camp-inputs">
-                    Qual o tipo de carro?
-                    <select class="input-select" name="car-type" id="car-type">
-                        <option value="">Selecionar</option>
-                        <option value="popular">Popular</option>
-                        <option value="luxo">Luxo</option>
-                    </select>
-                </label>
-                <label class="camp-inputs">
-                    Por quantos dias você permaneceu com o carro?
-                    <input type="number" id="car-days">
-                </label>
-                <label class="camp-inputs">
-                    Quantos km foram percorridos:
-                    <input type="text" id="car-distance">
-                </label>
-                <div>
-                    <button class="button" type="submit" form="aluguel-form">Enviar</button>
-                    <button class="button" type="reset" form="aluguel-form">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+        <h1 class="title">Aluguel de carros</h1>
+        <p>Simule o valor a ser pago</p>
+        <form action="#" id="aluguel-form">
+            <label class="camp-inputs">
+                Qual o tipo de carro?
+                <select class="input-select" name="car-type" id="car-type">
+                    <option value="">Selecionar</option>
+                    <option value="popular">Popular</option>
+                    <option value="luxo">Luxo</option>
+                </select>
+            </label>
+            <label class="camp-inputs">
+                Por quantos dias você permaneceu com o carro?
+                <input type="number" id="car-days">
+            </label>
+            <label class="camp-inputs">
+                Quantos km foram percorridos:
+                <input type="text" id="car-distance">
+            </label>
+            <div>
+                <button class="btn" type="submit" form="aluguel-form">Enviar</button>
+                <button class="btn" type="reset" form="aluguel-form">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-035.js"></script>
 </body>

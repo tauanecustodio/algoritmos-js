@@ -8,29 +8,27 @@
     <title>Exercício 045</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Contador</h1>
-            <form action="#" id="contador-form">
-                <label class="camp-inputs" for="number">
-                    Digite o primeiro valor:
-                    <input type="number" id="number" name="number">
-                </label>
-                <label class="camp-inputs" for="last-number">
-                    Digite o último valor:
-                    <input type="number" id="last-number" name="last-number">
-                </label>
-                <label class="camp-inputs" for="increment">
-                    Digite o incremento:
-                    <input type="number" id="increment" name="increment">
-                </label>
-                <div>
-                    <button type="submit" class="button" form="contador-form">Começar</button>
-                    <button type="reset" class="button" form="contador-form">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Contador</h1>
+        <form action="#" id="contador-form">
+            <label class="camp-inputs" for="number">
+                Digite o primeiro valor:
+                <input type="number" id="number" name="number">
+            </label>
+            <label class="camp-inputs" for="last-number">
+                Digite o último valor:
+                <input type="number" id="last-number" name="last-number">
+            </label>
+            <label class="camp-inputs" for="increment">
+                Digite o incremento:
+                <input type="number" id="increment" name="increment">
+            </label>
+            <div>
+                <button type="submit" class="btn" form="contador-form">Começar</button>
+                <button type="reset" class="btn" form="contador-form">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-045.js"></script>
 </body>

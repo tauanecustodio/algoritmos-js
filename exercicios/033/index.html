@@ -8,29 +8,27 @@
     <title>Exercício 033</title>
 </head>
 <body>
-    <main class="container">
-        <section class="card">
-            <h1 class="title">Empréstimo bancário</h1>
-            <form action="#" id="loan-form">
-                <label class="camp-inputs">
-                    Qual o valor da casa que você deseja comprar?
-                    <input type="number" placeholder="R$" id="value-loan">
-                </label>
-                <label class="camp-inputs">
-                    Qual o seu salário?
-                    <input type="number" placeholder="R$" id="value-wage">
-                </label>
-                <label class="camp-inputs">
-                    Em quantos anos você deseja pagar?
-                    <input type="number" placeholder="anos" id="value-years">
-                </label>
-                <div>
-                    <button class="button" type="submit" form="loan-form">Calcular</button>
-                    <button class="button" type="reset" form="loan-form">Limpar</button>
-                </div>
-            </form>
-            <p class="text" id="text-area"></p>
-        </section>
+    <main id="card">
+        <h1 class="title">Empréstimo bancário</h1>
+        <form action="#" id="loan-form">
+            <label class="camp-inputs">
+                Qual o valor da casa que você deseja comprar?
+                <input type="number" placeholder="R$" id="value-loan">
+            </label>
+            <label class="camp-inputs">
+                Qual o seu salário?
+                <input type="number" placeholder="R$" id="value-wage">
+            </label>
+            <label class="camp-inputs">
+                Em quantos anos você deseja pagar?
+                <input type="number" placeholder="anos" id="value-years">
+            </label>
+            <div>
+                <button class="btn" type="submit" form="loan-form">Calcular</button>
+                <button class="btn" type="reset" form="loan-form">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
     </main>
     <script src="script-033.js"></script>
 </body>
