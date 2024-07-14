@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <title>Exercício 068</title>
+</head>
+<body>
+    <main id="card">
+        <h1 class="title">Comparando pessoas</h1>
+        <p>Informe os dados de 8 pessoas que você quer comparar (clique no botão adicionar para cadastrar cada uma delas)</p>
+        <form action="#">
+            <label class="camp-inputs" for="weight">
+                Peso:
+                <input type="number" id="weight">
+            </label>
+            <label class="camp-inputs" for="gender">
+                Sexo:
+                <select class="input-select" name="gender" id="gender">
+                    <option value="">Selecione</option>
+                    <option value="feminine">Feminino</option>
+                    <option value="masculine">Masculino</option>
+                </select>
+            </label>
+            <div>
+                <button type="submit" class="btn" id="add">
+                    Adicionar <span id="total-person">(0)</span>
+                </button>
+                <button type="reset" class="btn">Resetar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
+    </main>
+    <script src="script-068.js"></script>
+</body>
+</html>
