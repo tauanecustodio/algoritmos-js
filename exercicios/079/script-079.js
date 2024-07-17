@@ -33,7 +33,7 @@ document.getElementById('add').addEventListener('click', function(e) {
         totalNumbers = 1;
         numbersAddText.innerHTML = totalNumbers;
         
-        textArea.innerHTML = `Números adicionados (números pares [] informando a posição):<br>${numbersList.join(', ')}`;
+        textArea.innerHTML = `Números adicionados (números pares: [] informando a posição):<br>${numbersList.join(', ')}`;
         
         numbersList.length = 0;
     }
