@@ -42,8 +42,8 @@ document.getElementById('add').addEventListener('click', function(e) {
         sunWeightWoman += weight;
     }
     
-    // document.getElementById('weight').value = '';
-    // document.getElementById('gender').value = '';
+    document.getElementById('weight').value = '';
+    document.getElementById('gender').value = '';
 
     if (totalPerson === 8) {
         textTotalPerson.innerHTML = `(${0})`;

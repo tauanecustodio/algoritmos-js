@@ -10,9 +10,6 @@ document.querySelector('button[type="submit"]').addEventListener('click', functi
     const number1 = parseInt(document.getElementById('number1').value);
     const number2 = parseInt(document.getElementById('number2').value);
 
-    console.log(number1);
-    console.log(number2);
-
     if (isNaN(number1) || isNaN(number2)) {
         textArea.innerHTML = "Insira valores numéricos válidos";
         return;
