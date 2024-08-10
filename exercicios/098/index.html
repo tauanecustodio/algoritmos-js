@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/general-components.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <title>Exercício 098</title>
+</head>
+<body>
+    <main id="card">
+        <h1 class="title">Super somador</h1>
+        <p>Informe 2 números para descobrir a soma do intervalo entre eles</p>
+        <form action="#" id="numbers-form">
+            <label for="first-number" class="camp-inputs">
+                Informe o primeiro número:
+                <input type="number" id="first-number">
+            </label>
+            <label for="last-number" class="camp-inputs">
+                Informe o último número:
+                <input type="number" id="last-number">
+            </label>
+            <div>
+                <button type="submit" class="btn" form="numbers-form">Somar</button>
+                <button type="reset" class="btn" form="numbers-form">Limpar</button>
+            </div>
+        </form>
+        <p id="text-area"></p>
+    </main>
+    <script src="script-098.js"></script>
+</body>
+</html>
